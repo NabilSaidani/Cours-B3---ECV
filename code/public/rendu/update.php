@@ -1,4 +1,4 @@
-<h1> Update </h1>
+ <h1> Update </h1>
 
 //Todo : Récupérer l'id depuis l'url
 //TODO : Remplir le forumaire HTML avec les valeur récupérées depuis la requete correspondante

@@ -1,3 +1,9 @@
+<?php
+require_once 'fonction.ini.php';
+$connexion = connexion();
+?>
+ 
+ 
  <h1> Update </h1>
 
 //Todo : Récupérer l'id depuis l'url

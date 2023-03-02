@@ -6,7 +6,8 @@ if(isset($_POST['username']) && !empty($_POST['username'])) {
     $result = $connexion->query('select * from users where username="'.$_POST['username'].'" and password="'.sha1($_POST['password']).'"');
 
     if($result->rowCount() >=1 ) {
-        //Todo: Faire le message de succès / Redirection
+        //Todo: Faire le message de succès / Redirection        
+        header('location: read.php');
     } else {
         $error = "Erreur dans la connexion, verifier votre username et mot de passe";
     }
@@ -35,7 +36,7 @@ if(isset($_POST['username']) && !empty($_POST['username'])) {
             <label for="password">Password</label>
             <input type="password" name="password" />
         </div>
-        <button typ="submit">Connexion</button>
+        <button type="submit">Connexion</button>
     </form>
     <?php if(isset($error) && !empty($error)) {
         echo '<p>'.$error.'</p>';

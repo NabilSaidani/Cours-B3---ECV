@@ -1,3 +1,12 @@
+<?php
+require_once 'fonction.ini.php';
+$connexion = connexion();
+?>
+
+
+
+
+
 <h1>delete</h1>
 
 //todo: Recuperer l'id de l'url 

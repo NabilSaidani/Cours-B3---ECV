@@ -1,0 +1,71 @@
+[28-Feb-2023 16:17:57 Europe/Paris] PHP Fatal error:  Uncaught PDOException: PDO::__construct(): Argument #1 ($dsn) must be a valid data source name in /var/www/html/public/rendu/fonction.ini.php:5
+Stack trace:
+#0 /var/www/html/public/rendu/fonction.ini.php(5): PDO->__construct()
+#1 /var/www/html/public/rendu/index.php(5): connexion()
+#2 {main}
+  thrown in /var/www/html/public/rendu/fonction.ini.php on line 5
+[28-Feb-2023 16:18:22 Europe/Paris] PHP Fatal error:  Uncaught PDOException: PDO::__construct(): Argument #1 ($dsn) must be a valid data source name in /var/www/html/public/rendu/fonction.ini.php:5
+Stack trace:
+#0 /var/www/html/public/rendu/fonction.ini.php(5): PDO->__construct()
+#1 /var/www/html/public/rendu/index.php(5): connexion()
+#2 {main}
+  thrown in /var/www/html/public/rendu/fonction.ini.php on line 5
+[28-Feb-2023 16:38:59 Europe/Paris] PHP Fatal error:  Uncaught PDOException: PDO::__construct(): Argument #1 ($dsn) must be a valid data source name in /var/www/html/public/rendu/fonction.ini.php:5
+Stack trace:
+#0 /var/www/html/public/rendu/fonction.ini.php(5): PDO->__construct()
+#1 /var/www/html/public/rendu/index.php(5): connexion()
+#2 {main}
+  thrown in /var/www/html/public/rendu/fonction.ini.php on line 5
+[28-Feb-2023 16:39:05 Europe/Paris] PHP Fatal error:  Uncaught PDOException: PDO::__construct(): Argument #1 ($dsn) must be a valid data source name in /var/www/html/public/rendu/fonction.ini.php:5
+Stack trace:
+#0 /var/www/html/public/rendu/fonction.ini.php(5): PDO->__construct()
+#1 /var/www/html/public/rendu/index.php(5): connexion()
+#2 {main}
+  thrown in /var/www/html/public/rendu/fonction.ini.php on line 5
+[28-Feb-2023 16:45:48 Europe/Paris] PHP Fatal error:  Uncaught PDOException: PDO::__construct(): Argument #1 ($dsn) must be a valid data source name in /var/www/html/public/rendu/fonction.ini.php:5
+Stack trace:
+#0 /var/www/html/public/rendu/fonction.ini.php(5): PDO->__construct()
+#1 /var/www/html/public/rendu/index.php(5): connexion()
+#2 {main}
+  thrown in /var/www/html/public/rendu/fonction.ini.php on line 5
+[28-Feb-2023 16:45:56 Europe/Paris] PHP Fatal error:  Uncaught PDOException: PDO::__construct(): Argument #1 ($dsn) must be a valid data source name in /var/www/html/public/rendu/fonction.ini.php:5
+Stack trace:
+#0 /var/www/html/public/rendu/fonction.ini.php(5): PDO->__construct()
+#1 /var/www/html/public/rendu/index.php(5): connexion()
+#2 {main}
+  thrown in /var/www/html/public/rendu/fonction.ini.php on line 5
+[28-Feb-2023 16:45:59 Europe/Paris] PHP Fatal error:  Uncaught PDOException: PDO::__construct(): Argument #1 ($dsn) must be a valid data source name in /var/www/html/public/rendu/fonction.ini.php:5
+Stack trace:
+#0 /var/www/html/public/rendu/fonction.ini.php(5): PDO->__construct()
+#1 /var/www/html/public/rendu/index.php(5): connexion()
+#2 {main}
+  thrown in /var/www/html/public/rendu/fonction.ini.php on line 5
+[28-Feb-2023 16:46:13 Europe/Paris] PHP Fatal error:  Uncaught PDOException: PDO::__construct(): Argument #1 ($dsn) must be a valid data source name in /var/www/html/public/rendu/fonction.ini.php:5
+Stack trace:
+#0 /var/www/html/public/rendu/fonction.ini.php(5): PDO->__construct()
+#1 /var/www/html/public/rendu/index.php(5): connexion()
+#2 {main}
+  thrown in /var/www/html/public/rendu/fonction.ini.php on line 5
+[28-Feb-2023 16:46:25 Europe/Paris] PHP Fatal error:  Uncaught PDOException: PDO::__construct(): Argument #1 ($dsn) must be a valid data source name in /var/www/html/public/rendu/fonction.ini.php:5
+Stack trace:
+#0 /var/www/html/public/rendu/fonction.ini.php(5): PDO->__construct()
+#1 /var/www/html/public/rendu/index.php(5): connexion()
+#2 {main}
+  thrown in /var/www/html/public/rendu/fonction.ini.php on line 5
+[28-Feb-2023 16:57:09 Europe/Paris] PHP Fatal error:  Uncaught PDOException: PDO::__construct(): php_network_getaddresses: getaddrinfo failed: Try again in /var/www/html/public/rendu/fonction.ini.php:5
+Stack trace:
+#0 /var/www/html/public/rendu/fonction.ini.php(5): PDO->__construct()
+#1 /var/www/html/public/rendu/index.php(5): connexion()
+#2 {main}
+
+Next PDOException: SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Try again in /var/www/html/public/rendu/fonction.ini.php:5
+Stack trace:
+#0 /var/www/html/public/rendu/fonction.ini.php(5): PDO->__construct()
+#1 /var/www/html/public/rendu/index.php(5): connexion()
+#2 {main}
+  thrown in /var/www/html/public/rendu/fonction.ini.php on line 5
+[28-Feb-2023 16:59:58 Europe/Paris] PHP Warning:  Undefined array key "username" in /var/www/html/public/rendu/index.php on line 12
+[28-Feb-2023 17:00:50 Europe/Paris] PHP Warning:  Undefined array key "username" in /var/www/html/public/rendu/index.php on line 12
+[28-Feb-2023 17:05:38 Europe/Paris] PHP Warning:  Undefined array key "username" in /var/www/html/public/rendu/index.php on line 12
+[28-Feb-2023 17:46:21 Europe/Paris] PHP Parse error:  syntax error, unexpected variable "$_POST", expecting ")" in /var/www/html/public/rendu/index.php on line 9
+[28-Feb-2023 17:49:26 Europe/Paris] PHP Parse error:  syntax error, unexpected variable "$_POST", expecting ")" in /var/www/html/public/rendu/index.php on line 9

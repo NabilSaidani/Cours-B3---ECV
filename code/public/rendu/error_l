@@ -201,3 +201,20 @@ Stack trace:
 #0 /var/www/html/public/rendu/create.php(18): PDOStatement->execute()
 #1 {main}
   thrown in /var/www/html/public/rendu/create.php on line 18
+[02-Mar-2023 22:12:54 Europe/Paris] PHP Warning:  Undefined variable $joueur in /var/www/html/public/rendu/create.php on line 70
+[02-Mar-2023 22:12:54 Europe/Paris] PHP Warning:  Trying to access array offset on value of type null in /var/www/html/public/rendu/create.php on line 70
+[03-Mar-2023 14:38:17 Europe/Paris] PHP Warning:  Undefined variable $nom in /var/www/html/public/rendu/create.php on line 14
+[03-Mar-2023 14:38:17 Europe/Paris] PHP Warning:  Undefined variable $prenom in /var/www/html/public/rendu/create.php on line 15
+[03-Mar-2023 14:38:17 Europe/Paris] PHP Warning:  Undefined variable $age in /var/www/html/public/rendu/create.php on line 16
+[03-Mar-2023 14:38:17 Europe/Paris] PHP Warning:  Undefined variable $nationalite in /var/www/html/public/rendu/create.php on line 17
+[03-Mar-2023 14:38:17 Europe/Paris] PHP Warning:  Undefined variable $poste in /var/www/html/public/rendu/create.php on line 18
+[03-Mar-2023 14:38:17 Europe/Paris] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''nationalite', 'poste') VALUES (NULL, NULL, NULL, NULL, NULL)' at line 1 in /var/www/html/public/rendu/create.php:19
+Stack trace:
+#0 /var/www/html/public/rendu/create.php(19): PDOStatement->execute()
+#1 {main}
+  thrown in /var/www/html/public/rendu/create.php on line 19
+[03-Mar-2023 14:40:31 Europe/Paris] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''nationalite', 'poste') VALUES ('RASHFORD', 'MARCUS', 25, 'ANGLAIS', 'attaqua...' at line 1 in /var/www/html/public/rendu/create.php:19
+Stack trace:
+#0 /var/www/html/public/rendu/create.php(19): PDOStatement->execute()
+#1 {main}
+  thrown in /var/www/html/public/rendu/create.php on line 19

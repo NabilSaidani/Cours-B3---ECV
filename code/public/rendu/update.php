@@ -1,10 +1,26 @@
 <?php
 require_once 'fonction.ini.php';
 $connexion = connexion();
+
+
+
+
+
 ?>
  
+
  
  <h1> Update </h1>
+ <!DOCTYPE html>
+ <html lang="fr">
+ <head>
+    <title>update</title>
+    <link rel="stylesheet" href="update.css">
+ </head>
+ <body>
+    
+ </body>
+ </html>
 
 //Todo : Récupérer l'id depuis l'url
 //TODO : Remplir le forumaire HTML avec les valeur récupérées depuis la requete correspondante

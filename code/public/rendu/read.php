@@ -18,7 +18,8 @@ $result = $query->fetchAll(PDO::FETCH_ASSOC);
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <title>Document</title>
+    <title>read</title>
+    <link rel="stylesheet" href="read.css">
 </head>
 <body>
 <h1>Liste des joueurs</h1>

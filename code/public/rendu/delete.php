@@ -5,9 +5,17 @@ $connexion = connexion();
 
 
 
-
-
 <h1>delete</h1>
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <title>delete</title>
+    <link rel="stylesheet" href="delete.css">
+</head>
+<body>
+    
+</body>
+</html>
 
 //todo: Recuperer l'id de l'url 
 //todo: Faire la requete SQL correspondante

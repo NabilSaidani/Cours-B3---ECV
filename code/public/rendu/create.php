@@ -77,7 +77,7 @@ if(isset($_POST)){
     </div>    
 </body>
 </html>
-//TODO: Si formulaire soumi, alors faire la requete d'insertion
-//TODO: Bonus : Gérer les erreurs / Le typages des champs / Messages de succès / Message d'Echec / Redirection
+<!-- //TODO: Si formulaire soumi, alors faire la requete d'insertion
+//TODO: Bonus : Gérer les erreurs / Le typages des champs / Messages de succès / Message d'Echec / Redirection -->
 
 <?php

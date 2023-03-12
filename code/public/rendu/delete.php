@@ -29,12 +29,20 @@ if(isset($_GET['id']) && !empty($_GET['id'])){
 </head>
 <body>
     <form class="form" action="delete.php" method="poste">
-        
+        <input type="hidden" name="id" value="<?php echo $id;?>"/>
+                      
+        Are you sure to delete ?
+                      
+        <br />
+        <div class="form-actions">
+            <button type="submit" class="btn btn-danger">Yes</button>
+            <a class="btn" href="index.php">No</a>
+        </div>
     </form>
 </body>
 </html>
 
-//todo: Recuperer l'id de l'url 
+<!-- //todo: Recuperer l'id de l'url 
 //todo: Faire la requete SQL correspondante
 //todo: Bonus: mettre une confirmation de suppression avant d'exécuter la requete
-//TODO: Bonus : Gérer les erreurs / Le typages des champs / Messages de succès / Message d'Echec / Redirection
+//TODO: Bonus : Gérer les erreurs / Le typages des champs / Messages de succès / Message d'Echec / Redirection -->

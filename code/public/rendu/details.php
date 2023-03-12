@@ -34,15 +34,21 @@ if(isset($_GET['id']) && !empty($_GET['id'])){
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>La liste des joueurs</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
 </head>
 <body>
-    <h1>Détails du joueur qui est nommé :  <?= $joueur['prenom'] ?></h1>
-    <p>ID : <?= $joueur['id'] ?></p>
-    <p>nom : <?= $joueur['nom'] ?></p>
-    <p>prenom : <?= $joueur['prenom'] ?></p>
-    <p>nationalite : <?= $joueur['nationalite'] ?></p>
-    <p>poste : <?= $joueur['poste'] ?></p>
-    <p><a href="read.php?id=<?= $joueur['id'] ?>">Retour</a>  <a href="update.php?id=<?= $joueur['id'] ?>">Modifier</a>  <a href="delete.php?id=<?= $joueur['id'] ?>">Supprimer</a></p>
+    <h1>Détails du joueur qui est nommé : <?= $joueur['prenom'] ?> <?= $joueur['nom'] ?></h1>
+    <div class="info">
+        <p>ID : <?= $joueur['id'] ?></p>
+        <p>Nom : <?= $joueur['nom'] ?></p>
+        <p>Prenom : <?= $joueur['prenom'] ?></p>
+        <p>Nationalité : <?= $joueur['nationalite'] ?></p>
+        <p>Poste : <?= $joueur['poste'] ?></p>
+    </div>
+    <div>
+        <p><a href="read.php?id=<?= $joueur['id'] ?>">Retour</a>  <a href="update.php?id=<?= $joueur['id'] ?>">Modifier</a>  <a href="delete.php?id=<?= $joueur['id'] ?>">Supprimer</a></p> 
+    </div>    
+   
 </body>
 </html>

@@ -1,0 +1,22 @@
+body{
+    background: rosybrown;
+}
+
+h1{
+    color: whitesmoke;
+    text-align: center;
+}
+
+.table{
+    width: 40%;
+    padding: 10px;
+    margin: auto;
+    border: 1px solid;
+    border-radius: 8px;
+    background: white;
+}
+
+.a{
+    color: whitesmoke;
+}
+

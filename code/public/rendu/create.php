@@ -1,4 +1,5 @@
 <?php
+session_start();
 require_once 'fonction.ini.php';
 $connexion = connexion();
 
@@ -10,21 +11,19 @@ if(isset($_POST)){
         && isset($_POST['poste']) && !empty($_POST['poste'])){
 
             $sql = "INSERT INTO `manchest` (`nom`, `prenom`, `age`, `nationalite`, `poste`) VALUES (:nom, :prenom, :age, :nationalite, :poste);";
-
             $query = $connexion->prepare($sql);
-
             $query->bindValue(':nom', $_POST['nom'], PDO::PARAM_STR);
             $query->bindValue(':prenom', $_POST ['prenom'], PDO::PARAM_STR);
             $query->bindValue(':age', $_POST ['age'], PDO::PARAM_INT);
             $query->bindValue(':nationalite', $_POST ['nationalite'], PDO::PARAM_STR);
             $query->bindValue(':poste', $_POST ['poste'], PDO::PARAM_STR);
-
             $query->execute();
-            $_SESSION['message'] = "Vous avez été ajouté avec succés dans le club";
+            $_SESSION['message'] = 'Bonjour '.$_POST['nom'].' '.$_POST['prenom'].'Vous avez été ajouté avec succés dans le club';
 
             header('Location: read.php');
         }
     }
+
 ?>
 
 <h1> Create </h1>
@@ -40,6 +39,7 @@ if(isset($_POST)){
     <link rel="stylesheet" href="create.css">
 </head>
 <body>
+    
     <h1 class="title">Veulliez completer les champs en ecrivant en majuscule</h1>
     <form class="formulaire" method="post">
         <div class="nom">
@@ -66,6 +66,7 @@ if(isset($_POST)){
                 <option value="MILIEUX">MILEUX</option>
                 <option value="DEFENSEUR">DEFENSEUR</option>
                 <option value="GARDIEN">GARDIEN</option>
+                <option value="ENTRAINEUR">ENTRAINEUR</option>
             </select>
         </div>
         <div class="submit">

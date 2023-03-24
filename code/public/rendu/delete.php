@@ -1,4 +1,5 @@
 <?php
+session_start();
 require_once 'fonction.ini.php';
 $connexion = connexion();
 
@@ -10,11 +11,16 @@ if(isset($_GET['id']) && !empty($_GET['id'])){
 
     $query->bindValue(':id', $id, PDO::PARAM_INT);
     $query->execute();
+    header('location : read.php');
 
-    header('Location: read.php');
-}
-
-
+    if(!$joueur){
+        $_SESSION['message'] = 'Le joueur '.$id.' a bien été supprimé !';
+        header('Location: read.php');
+    }else{
+        $_SESSION['message'] = 'invalide ';
+        header('Location: read.php');
+    }
+}        
 
 ?>
 
@@ -26,19 +32,12 @@ if(isset($_GET['id']) && !empty($_GET['id'])){
 <head>
     <title>delete</title>
     <link rel="stylesheet" href="delete.css">
+    
 </head>
 <body>
-    <form class="form" action="delete.php" method="poste">
-        <input type="hidden" name="id" value="<?php echo $id;?>"/>
-                      
-        Are you sure to delete ?
-                      
-        <br />
-        <div class="form-actions">
-            <button type="submit" class="btn btn-danger">Yes</button>
-            <a class="btn" href="index.php">No</a>
-        </div>
-    </form>
+
+
+
 </body>
 </html>
 

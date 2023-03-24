@@ -47,7 +47,11 @@ if(isset($_GET['id']) && !empty($_GET['id'])){
         <p>Poste : <?= $joueur['poste'] ?></p>
     </div>
     <div>
-        <p><a href="read.php?id=<?= $joueur['id'] ?>">Retour</a>  <a href="update.php?id=<?= $joueur['id'] ?>">Modifier</a>  <a href="delete.php?id=<?= $joueur['id'] ?>">Supprimer</a></p> 
+        <p>
+            <a href="read.php?id=<?= $joueur['id'] ?>">Retour</a>
+            <a href="update.php?id=<?= $joueur['id'] ?>">Modifier</a>
+            <a href="delete.php?id=<?= $joueur['id'] ?>">Supprimer</a>
+        </p> 
     </div>    
    
 </body>

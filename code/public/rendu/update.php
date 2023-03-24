@@ -45,6 +45,8 @@ if(isset($_POST)){
     
         $joueur = $query->fetch();
     }
+
+    
 ?>
  
 
@@ -83,6 +85,7 @@ if(isset($_POST)){
                 <option>GARDIEN</option>
                 <option>MILEUX</option>
                 <option>DEFENSEUR</option>
+                <option>ENTRAINEUR</option>
             </select>
         </div>
         <div>

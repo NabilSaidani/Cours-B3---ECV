@@ -218,3 +218,57 @@ Stack trace:
 #0 /var/www/html/public/rendu/create.php(19): PDOStatement->execute()
 #1 {main}
   thrown in /var/www/html/public/rendu/create.php on line 19
+[13-Mar-2023 21:33:51 Europe/Paris] PHP Warning:  Undefined variable $_Post in /var/www/html/public/rendu/create.php on line 24
+[13-Mar-2023 21:33:51 Europe/Paris] PHP Warning:  Trying to access array offset on value of type null in /var/www/html/public/rendu/create.php on line 24
+[13-Mar-2023 21:33:51 Europe/Paris] PHP Warning:  Undefined variable $_Post in /var/www/html/public/rendu/create.php on line 24
+[13-Mar-2023 21:33:51 Europe/Paris] PHP Warning:  Trying to access array offset on value of type null in /var/www/html/public/rendu/create.php on line 24
+[13-Mar-2023 21:33:51 Europe/Paris] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/html/public/rendu/create.php:24) in /var/www/html/public/rendu/create.php on line 26
+[24-Mar-2023 14:06:08 Europe/Paris] PHP Warning:  Undefined variable $contact in /var/www/html/public/rendu/delete.php on line 48
+[24-Mar-2023 14:06:08 Europe/Paris] PHP Warning:  Trying to access array offset on value of type null in /var/www/html/public/rendu/delete.php on line 48
+[24-Mar-2023 14:06:08 Europe/Paris] PHP Warning:  Undefined variable $msg in /var/www/html/public/rendu/delete.php on line 49
+[24-Mar-2023 14:06:08 Europe/Paris] PHP Warning:  Undefined variable $contact in /var/www/html/public/rendu/delete.php on line 52
+[24-Mar-2023 14:06:08 Europe/Paris] PHP Warning:  Trying to access array offset on value of type null in /var/www/html/public/rendu/delete.php on line 52
+[24-Mar-2023 14:06:08 Europe/Paris] PHP Warning:  Undefined variable $contact in /var/www/html/public/rendu/delete.php on line 54
+[24-Mar-2023 14:06:08 Europe/Paris] PHP Warning:  Trying to access array offset on value of type null in /var/www/html/public/rendu/delete.php on line 54
+[24-Mar-2023 14:06:08 Europe/Paris] PHP Warning:  Undefined variable $contact in /var/www/html/public/rendu/delete.php on line 55
+[24-Mar-2023 14:06:08 Europe/Paris] PHP Warning:  Trying to access array offset on value of type null in /var/www/html/public/rendu/delete.php on line 55
+[24-Mar-2023 14:12:31 Europe/Paris] PHP Warning:  Undefined variable $contact in /var/www/html/public/rendu/delete.php on line 48
+[24-Mar-2023 14:12:31 Europe/Paris] PHP Warning:  Trying to access array offset on value of type null in /var/www/html/public/rendu/delete.php on line 48
+[24-Mar-2023 14:12:31 Europe/Paris] PHP Warning:  Undefined variable $msg in /var/www/html/public/rendu/delete.php on line 49
+[24-Mar-2023 14:12:31 Europe/Paris] PHP Warning:  Undefined variable $contact in /var/www/html/public/rendu/delete.php on line 52
+[24-Mar-2023 14:12:31 Europe/Paris] PHP Warning:  Trying to access array offset on value of type null in /var/www/html/public/rendu/delete.php on line 52
+[24-Mar-2023 14:12:31 Europe/Paris] PHP Warning:  Undefined variable $contact in /var/www/html/public/rendu/delete.php on line 54
+[24-Mar-2023 14:12:31 Europe/Paris] PHP Warning:  Trying to access array offset on value of type null in /var/www/html/public/rendu/delete.php on line 54
+[24-Mar-2023 14:12:31 Europe/Paris] PHP Warning:  Undefined variable $contact in /var/www/html/public/rendu/delete.php on line 55
+[24-Mar-2023 14:12:31 Europe/Paris] PHP Warning:  Trying to access array offset on value of type null in /var/www/html/public/rendu/delete.php on line 55
+[24-Mar-2023 14:12:33 Europe/Paris] PHP Warning:  Undefined variable $contact in /var/www/html/public/rendu/delete.php on line 48
+[24-Mar-2023 14:12:33 Europe/Paris] PHP Warning:  Trying to access array offset on value of type null in /var/www/html/public/rendu/delete.php on line 48
+[24-Mar-2023 14:12:33 Europe/Paris] PHP Warning:  Undefined variable $msg in /var/www/html/public/rendu/delete.php on line 49
+[24-Mar-2023 14:12:33 Europe/Paris] PHP Warning:  Undefined variable $contact in /var/www/html/public/rendu/delete.php on line 52
+[24-Mar-2023 14:12:33 Europe/Paris] PHP Warning:  Trying to access array offset on value of type null in /var/www/html/public/rendu/delete.php on line 52
+[24-Mar-2023 14:12:33 Europe/Paris] PHP Warning:  Undefined variable $contact in /var/www/html/public/rendu/delete.php on line 54
+[24-Mar-2023 14:12:33 Europe/Paris] PHP Warning:  Trying to access array offset on value of type null in /var/www/html/public/rendu/delete.php on line 54
+[24-Mar-2023 14:12:33 Europe/Paris] PHP Warning:  Undefined variable $contact in /var/www/html/public/rendu/delete.php on line 55
+[24-Mar-2023 14:12:33 Europe/Paris] PHP Warning:  Trying to access array offset on value of type null in /var/www/html/public/rendu/delete.php on line 55
+[24-Mar-2023 14:17:27 Europe/Paris] PHP Warning:  Undefined variable $joueur in /var/www/html/public/rendu/delete.php on line 48
+[24-Mar-2023 14:17:27 Europe/Paris] PHP Warning:  Trying to access array offset on value of type null in /var/www/html/public/rendu/delete.php on line 48
+[24-Mar-2023 14:17:27 Europe/Paris] PHP Warning:  Undefined variable $msg in /var/www/html/public/rendu/delete.php on line 49
+[24-Mar-2023 14:17:27 Europe/Paris] PHP Warning:  Undefined variable $joueur in /var/www/html/public/rendu/delete.php on line 52
+[24-Mar-2023 14:17:27 Europe/Paris] PHP Warning:  Trying to access array offset on value of type null in /var/www/html/public/rendu/delete.php on line 52
+[24-Mar-2023 14:17:27 Europe/Paris] PHP Warning:  Undefined variable $joueur in /var/www/html/public/rendu/delete.php on line 54
+[24-Mar-2023 14:17:27 Europe/Paris] PHP Warning:  Trying to access array offset on value of type null in /var/www/html/public/rendu/delete.php on line 54
+[24-Mar-2023 14:17:27 Europe/Paris] PHP Warning:  Undefined variable $joueur in /var/www/html/public/rendu/delete.php on line 55
+[24-Mar-2023 14:17:27 Europe/Paris] PHP Warning:  Trying to access array offset on value of type null in /var/www/html/public/rendu/delete.php on line 55
+[24-Mar-2023 14:17:29 Europe/Paris] PHP Warning:  Undefined variable $pdo in /var/www/html/public/rendu/delete.php on line 17
+[24-Mar-2023 14:17:29 Europe/Paris] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /var/www/html/public/rendu/delete.php:17
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/rendu/delete.php on line 17
+[24-Mar-2023 22:33:15 Europe/Paris] PHP Warning:  Undefined variable $joueur in /var/www/html/public/rendu/delete.php on line 16
+[24-Mar-2023 22:33:15 Europe/Paris] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/html/public/rendu/delete.php:16) in /var/www/html/public/rendu/delete.php on line 18
+[24-Mar-2023 22:34:48 Europe/Paris] PHP Warning:  Undefined variable $joueur in /var/www/html/public/rendu/delete.php on line 16
+[24-Mar-2023 22:34:48 Europe/Paris] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/html/public/rendu/delete.php:16) in /var/www/html/public/rendu/delete.php on line 18
+[24-Mar-2023 22:35:17 Europe/Paris] PHP Warning:  Undefined variable $joueur in /var/www/html/public/rendu/delete.php on line 16
+[24-Mar-2023 22:35:17 Europe/Paris] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/html/public/rendu/delete.php:16) in /var/www/html/public/rendu/delete.php on line 18
+[24-Mar-2023 22:35:33 Europe/Paris] PHP Warning:  Undefined variable $joueur in /var/www/html/public/rendu/delete.php on line 16
+[24-Mar-2023 22:35:33 Europe/Paris] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/html/public/rendu/delete.php:16) in /var/www/html/public/rendu/delete.php on line 18
